@@ -1,0 +1,236 @@
+
+/* Google Fonts Used */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+
+
+*{
+	background: #EAF0F1;
+	margin: 0 auto;
+	padding: 0 auto;
+	/*#EAF0F1*/
+}
+
+/* Banner */
+.navigation{
+	max-width: 80%;
+	height: 3em;
+	background: #333945;
+	padding: 2em 0em 0em 5em;
+}
+
+#home, #contact, #about, #gallery, #review, #book{
+	display: inline;
+	text-align: center;
+	margin-right: 3em;
+	margin-left: 1em;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+	font-size: 1em;
+	letter-spacing: 0.25em;
+	background-color: #333945;
+	color: #EAF0F1;
+}
+
+#book{
+	border-style: solid;
+	border-color: #fff;
+	padding: 0.5em 2em;
+	transition: all 0.5s;
+}
+
+#book:hover{
+	background: #fff;
+	color: #000;
+}
+
+#home:hover, #contact:hover, #about:hover, #gallery:hover, #review:hover{
+	color: #758AA2;
+}
+
+a{
+	text-decoration: none;
+	background-color: #333945;
+}
+
+/* Description */
+.business{
+	padding: 3em 0em;
+	text-align: center;
+}
+
+#negi{
+	font-family: 'Great Vibes', cursive;
+	font-size: 4em;
+	letter-spacing: 0.25em;
+	margin-bottom: 0.25em;
+}
+
+#rent{
+	display: inline;
+	font-family: 'Indie Flower', cursive;
+	font-size: 2em;
+}
+
+.line{
+	display: inline-block;
+	width: 2%;
+	margin: 0.25em;
+}
+
+.cover{
+	background: url(Images/cover.jpg) no-repeat center;
+	background-size: cover;
+	max-width: 70%;
+	height: 30em;
+	top: 70%;
+	left: 50%;
+}
+
+/* Service */
+.services{
+	max-width: 80%;
+	margin: 1em 11.5em;
+	background: #EAF0F1;
+}
+
+.service1, .service2, .service3{
+	display: inline-block;
+	margin: 2em 4em;
+	padding-left: 6em;
+	text-align: center;
+	font-family: "Montserrat", sans-serif;
+	font-weight: lighter;
+	font-size: 1em;
+
+}
+
+.fa{
+	color: #333945;
+	padding-bottom: 1em;
+	opacity: 0.5;
+}
+
+/* About */
+#about-section{
+	max-width: 40%;
+	margin: 2em 2em 2em 24em;
+	padding: 3em;
+	text-align: center;
+	color: #333945;
+}
+
+#about-head, #about-description{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+	font-weight: lighter;
+	padding-bottom: 1.5em;
+}
+
+#about-description{
+	font-size: 1em;
+	overflow-wrap: break-word;
+	line-height: 1.5em;
+	font-style: italic;
+}
+
+/* Gallery */
+#gallery-section {
+  overflow: hidden;
+  height: 510px;
+  width: 728px;
+  margin: 0 auto;
+}
+
+.slide-wrapper {
+  width: 2912px;
+  -webkit-animation: slide 18s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 510px;
+  width: 728px;
+  background-size: cover;
+  background-position: center;
+}
+
+.slide:nth-child(1) {
+  background: url(Images/slide1.jpg) no-repeat bottom;
+  background-size: cover;
+}
+
+.slide:nth-child(2) {
+  background: url(Images/slide2.jpg) no-repeat bottom;
+  background-size: cover;
+}
+
+.slide:nth-child(3) {
+  background: url(Images/slide3.jpg) no-repeat bottom;
+  background-size: cover;
+}
+
+.slide:nth-child(4) {
+  background: url(Images/slide4.jpg) no-repeat bottom;
+  background-size: cover;
+}
+
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -728px;}
+  50% {margin-left: -728px;}
+  60% {margin-left: -1456px;}
+  70% {margin-left: -1456px;}
+  80% {margin-left: -2184px;}
+  90% {margin-left: -2184px;}
+}
+
+/* Reviews */
+#review-section{
+	max-width: 80%;
+	line-height: 1.5em;
+	text-align: center;
+	color: #333945;
+}
+
+#review-head{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+	font-weight: lighter;
+	padding-bottom: 1.5em;
+	margin-top: 6em;
+}
+
+.review1, .review2, .review3{
+	display: inline-block;
+	max-width: 20%;
+	height: auto;
+	margin-top: 2em;
+	padding: 1em;
+	/*box-shadow: 0.5em 0.5em 4em;
+	border-radius: 12px;*/
+}
+
+.reviewer, .comment{
+	font-family: 'Montserrat', sans-serif;
+	padding-bottom: 1em;
+}
+
+.comment{
+	font-style: italic;
+}
+
+/* Form */
+.airtable-embed{
+	max-width: 80%;
+	margin: 4em 9em;
+}
+
+/* Copywright */
+.rights{
+	text-align: center;
+	color: #333945;
+	font-family: 'Montserrat', sans-serif;
+	margin: 2em;
+}
