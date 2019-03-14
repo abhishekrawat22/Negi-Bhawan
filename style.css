@@ -9,7 +9,6 @@
 	background: #EAF0F1;
 	margin: 0 auto;
 	padding: 0 auto;
-	/*#EAF0F1*/
 }
 
 /* Banner */
@@ -208,8 +207,6 @@ a{
 	height: auto;
 	margin-top: 2em;
 	padding: 1em;
-	/*box-shadow: 0.5em 0.5em 4em;
-	border-radius: 12px;*/
 }
 
 .reviewer, .comment{
@@ -225,6 +222,37 @@ a{
 .airtable-embed{
 	max-width: 80%;
 	margin: 4em 9em;
+}
+
+/* Contact */
+#contact-section{
+	text-align: center;
+	margin-top: 3em;
+	padding: 2em;
+	background: #fff;
+}
+
+#contact-head{
+	background: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+	color: #333945;
+}
+
+#phone, #address{
+	background: #fff;
+	margin-top: 2em;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+	color: #333945;
+}
+
+#map{
+	margin-top: 2em;
+}
+
+.fa-mobile{
+	background: #fff;
 }
 
 /* Copywright */
