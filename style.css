@@ -136,53 +136,53 @@ a{
 
 /* Gallery */
 #gallery-section {
-  overflow: hidden;
-  height: 510px;
-  width: 728px;
-  margin: 0 auto;
+	overflow: hidden;
+	height: 510px;
+	width: 728px;
+	margin: 0 auto;
 }
 
 .slide-wrapper {
-  width: 2912px;
-  -webkit-animation: slide 18s ease infinite;
+	width: 2912px;
+	-webkit-animation: slide 18s ease infinite;
 }
 
 .slide {
-  float: left;
-  height: 510px;
-  width: 728px;
-  background-size: cover;
-  background-position: center;
+	float: left;
+	height: 510px;
+	width: 728px;
+	background-size: cover;
+	background-position: center;
 }
 
 .slide:nth-child(1) {
-  background: url(Images/slide1.jpg) no-repeat bottom;
-  background-size: cover;
+	background: url(Images/slide1.jpg) no-repeat bottom;
+	background-size: cover;
 }
 
 .slide:nth-child(2) {
-  background: url(Images/slide2.jpg) no-repeat bottom;
-  background-size: cover;
+	background: url(Images/slide2.jpg) no-repeat bottom;
+	background-size: cover;
 }
 
 .slide:nth-child(3) {
-  background: url(Images/slide3.jpg) no-repeat bottom;
-  background-size: cover;
+	background: url(Images/slide3.jpg) no-repeat bottom;
+	background-size: cover;
 }
 
 .slide:nth-child(4) {
-  background: url(Images/slide4.jpg) no-repeat bottom;
-  background-size: cover;
+	background: url(Images/slide4.jpg) no-repeat bottom;
+	background-size: cover;
 }
 
 @-webkit-keyframes slide {
-  20% {margin-left: 0px;}
-  30% {margin-left: -728px;}
-  50% {margin-left: -728px;}
-  60% {margin-left: -1456px;}
-  70% {margin-left: -1456px;}
-  80% {margin-left: -2184px;}
-  90% {margin-left: -2184px;}
+	20% {margin-left: 0px;}
+	30% {margin-left: -728px;}
+	50% {margin-left: -728px;}
+	60% {margin-left: -1456px;}
+	70% {margin-left: -1456px;}
+	80% {margin-left: -2184px;}
+	90% {margin-left: -2184px;}
 }
 
 /* Reviews */
