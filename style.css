@@ -552,6 +552,13 @@ input, select{
 		background-color: #333945;
 		color: #EAF0F1;
 	}
+	
+	#book{
+		border-style: solid;
+		border-color: #fff;
+		padding: 0.75em 2em;
+		transition: all 0.5s;
+	}
 
 }
 
@@ -823,6 +830,13 @@ input, select{
 		transition: all 0.5s;
 	}
 
+	#book{
+		border-style: solid;
+		border-color: #fff;
+		padding: 0.75em 2em;
+		transition: all 0.5s;
+	}
+	
 	#myForm{
 		padding: 2em 3em;
 		background: #fff;
