@@ -188,6 +188,11 @@ a{
     background-size: cover;
 }
 
+#Scroll{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
 /* Reviews */
 #review-section{
 	max-width: 80%;
