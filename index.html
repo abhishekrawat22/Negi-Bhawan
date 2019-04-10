@@ -153,13 +153,15 @@
 				
 				<h2 id="book-head">Book Your Room</h2>
 				
-				<h4 class="book-subhead">Full Name</h4>
+				<h5 id="star">* Required</h5>
+				
+				<h4 class="book-subhead">Full Name *</h4>
 				<input type="text" maxlength="50" name="entry.952170820" required>
 
-				<h4 class="book-subhead">Phone Number</h4>
+				<h4 class="book-subhead">Phone Number *</h4>
 				<input type="text" maxlength="13" name="entry.375993745" required>
 
-				<h4 class="book-subhead">ID Proof</h4>
+				<h4 class="book-subhead">ID Proof *</h4>
 				<select name="entry.638515538" required>
 					
 					<option>Adhaar Card</option>
@@ -170,17 +172,19 @@
 
 				</select>
 
-				<h4 class="book-subhead">ID Number</h4>
+				<h4 class="book-subhead">ID Number *</h4>
 				<input type="text" maxlength="50" name="entry.961904935" required>
 
-				<h4 class="book-subhead">Room</h4>
-				<select name="entry.2030761999" required>
+				<h4 class="book-subhead">Room *</h4>
+				<select id="room-type" onchange="return room();' name="entry.2030761999" required>
 					
 					<option>1 BK</option>
 					<option>2 BK</option>
 					<option>3 BK</option>
 
 				</select>
+													
+				<p id="room-price"></p>
 
 				<h4 class="book-subhead">Adult</h4>
 				<input type="Number" name="entry.1079915119">
@@ -188,10 +192,10 @@
 				<h4 class="book-subhead">Kids</h4>
 				<input type="Number" name="entry.1385898048">
 
-				<h4 class="book-subhead">Staying From</h4>
+				<h4 class="book-subhead">Staying From *</h4>
 				<input type="date" name="entry.699378821" name="entry.699378821" name="entry.699378821" required>
 
-				<h4 class="book-subhead">Staying Till</h4>
+				<h4 class="book-subhead">Staying Till *</h4>
 				<input type="date" name="entry.227909274" name="entry.227909274" name="entry.227909274" required>
 
 				<button id="submit">Book Now</button>
