@@ -291,6 +291,16 @@ input, select{
 	font-size: 0.90em;
 }
 
+#room-price{
+	margin-top: 1em;
+	background: #fff;
+}
+
+#star{
+	color: red;
+	background: #fff;
+}
+
 /* Contact */
 #contact-section{
 	text-align: center;
