@@ -30,3 +30,23 @@ button.onclick = function() {
 close.onclick = function() {
   	hiddenPanel.style.display = 'none';
 }
+
+/* Show Room Price. */
+let roomType = document.getElementById('room-type');
+let roomPrice = document.getElementById('room-price');
+
+roomPrice.innerHTML = 'Rs. 2000/- + GST';
+
+let room = () => {
+	if(roomType[0].selected == true) {
+		roomPrice.innerHTML = 'Rs. 2000/- + GST';
+	}
+		
+	if(roomType[1].selected == true) {
+		roomPrice.innerHTML = 'Rs. 5000/- + GST';
+	}
+		
+	else if(roomType[2].selected == true) {
+		roomPrice.innerHTML = 'Rs. 8000/- + GST';
+	}
+}
