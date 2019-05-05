@@ -1,0 +1,530 @@
+/*Google Font.*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{
+	background: #EAF0F1;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+/* Banner */
+.navigation{
+	max-width: 80%;
+	height: 3em;
+	background: #333945;
+	padding: 2em 2em 0.5em 2em;
+	display: grid;
+	grid: 20px / auto auto auto auto auto auto;
+}
+
+.sticky{  /* Scroll Effect Class. */
+	width: 100%;
+	position: fixed;
+	height: 3em;
+	background: #333945;
+	padding: 2em 2em 0.5em 2em;
+	display: grid;
+	grid: 20px / auto auto auto auto auto auto;
+	opacity: 0.95;
+}
+
+.navBar i, .navBar a, #bar{
+	display: none;
+}
+
+#panelTwo{
+	display: none;
+}
+
+#home, #contact, #about, #gallery, #review, #book{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+	font-size: 1em;
+	letter-spacing: 0.25em;
+	background-color: #333945;
+	color: #EAF0F1;
+}
+
+#book{
+	border-style: solid;
+	border-color: #fff;
+	padding: 0.5em 2em;
+	transition: all 0.5s;
+}
+
+#book:hover{
+	background: #fff;
+	color: #000;
+}
+
+#home:hover, #contact:hover, #about:hover, #gallery:hover, #review:hover{
+	color: #758AA2;
+}
+
+a{
+	text-decoration: none;
+	background-color: #333945;
+}
+
+/*Booking Form.*/
+section{
+	padding: 3em;
+}
+
+.modal-1, .modal-2, .modal-3{
+	margin: 0em 20%;
+	margin-bottom: 3em;
+	max-width: 70%;
+	background: #fff;
+	display: grid;
+	grid: auto/ 1fr 2fr;
+	color: #5333ed;
+	font-weight: bold;
+
+}
+
+.room-details{
+	background-color: #7befb2;
+	color: #4daf7c;
+	text-align: center;
+	padding: 10em 2em;
+}
+
+.room-details h1, .room-details h3, .room-details h4, .room-details h5, .room-details h6 {
+	background-color: #7befb2;
+}
+
+.book-section{
+	font-family: 'Montserrat', sans-serif;
+	color: #2B2B52;
+	display: grid;
+	grid: auto;
+}
+
+.myForm{
+	padding: 1em;
+	background: #fff;
+}
+
+.book-head, .book-subhead{
+	padding:2em 0em 1em 0em;
+	background: #fff;
+}
+
+input{
+	outline: none;
+	width: 15em;
+	height: 2em;
+	border-style: solid;
+	border-color: #2B2B52;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+	background: #fff;
+}
+
+.submit{
+	display: block;
+	background: #2B2B52;
+	margin: 4em 0em 1em 0em;
+	border-style: solid;
+	border-color: #fff;
+	transition: all 0.5s;
+	color: #fff;
+	height: 3em;
+	width: 8em;
+	font-size: 0.90em;
+}
+
+.submit:hover{
+	background: #333945;
+	color: #fff;
+}
+
+.reset{
+	background: #2B2B52;
+	float: left;
+	margin: -4em 0em 1em 9em;
+	border-style: solid;
+	border-color: #fff;
+	color: #fff;
+	height: 3em;
+	width: 8em;
+	font-size: 0.90em;
+}
+
+form h5{
+	color: #96281b;
+	background: #fff;
+}
+
+/* Copyright */
+.rights{
+	text-align: center;
+	color: #333945;
+	margin: 2em;
+}
+
+/* Responsive Queries */
+@media screen and (max-width: 900px) {
+
+	section{
+		margin-top: 7em;
+	}
+
+	.navigation, .sticky{
+		display: none;
+	}
+
+	.navBar{
+		width: 100%;
+		position: fixed;
+		height: 2em;
+		background: #333945;
+		padding: 1.5em 0em;
+		top: 0;
+		display: grid;
+		grid: 20px / auto auto;
+		opacity: 0.95;
+	}
+
+	.navBar i{
+		background: #333945;
+		color: #fff;
+		display: block;
+	}
+
+	#bar{
+		display: block;
+		background: #333945;
+		border: none;
+		outline: hidden;
+		margin-left: 1em;
+	}
+
+	.navBar a{
+		display: block;
+		margin-right: 1em;
+		padding-top: 0.5em;
+	}
+
+	#home, #contact, #about, #gallery, #review, #bookTwo{
+		font-family: 'Montserrat', sans-serif;
+		font-weight: lighter;
+		font-size: 1em;
+		letter-spacing: 0.25em;
+		background-color: #DAE0E2;
+		color: #000;
+	}
+
+	.close{
+		float: right;
+		margin-top: 0.5em;
+		margin-right: 1em;
+		font-size: 3em;
+		font-weight: bolder;
+		background: #DAE0E2;
+		color: #fff;
+	}
+	
+	#bookTwo{
+		border-style: solid;
+		border-color: #fff;
+		padding: 0.5em 2em;
+		transition: all 0.5s;
+		background-color: #333945
+		color: #DAE0E2;
+	}
+
+	a{
+		text-decoration: none;
+		background-color: #DAE0E2;
+	}
+
+}
+
+@media screen and (max-width: 820px) {
+
+	section{
+		margin-top: 7em;
+	}
+
+	.modal-1, .modal-2, .modal-3{
+		max-width: 100%;
+		margin: 0em 15%;
+		margin-bottom: 3em;
+	}
+}
+
+@media screen and (max-width: 720px) {
+
+	section{
+		margin-top: 7em;
+	}
+
+	.modal-1, .modal-2, .modal-3{
+		max-width: 100%;
+		margin: 0em;
+		margin-bottom: 3em;
+	}
+}
+
+@media screen and (max-width: 630px) {
+
+	section{
+		margin-top: 7em;
+	}
+
+	.modal-1, .modal-2, .modal-3{
+		max-width: 100%;
+		margin: 0em;
+		margin-bottom: 3em;
+	}
+
+	input{
+		outline: none;
+		width: 13em;
+		height: 2em;
+		border-style: solid;
+		border-color: #2B2B52;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 0.75em;
+		background: #fff;
+	}
+
+	.submit{
+		display: block;
+		background: #2B2B52;
+		margin: 4em 0em 0em 0em;
+		border-style: solid;
+		border-color: #fff;
+		transition: all 0.5s;
+		color: #fff;
+		height: 3em;
+		width: 8em;
+		font-size: 0.90em;
+	}
+
+	.reset{
+		background: #2B2B52;
+		margin: 1em 0em 0em 0em;
+		border-style: solid;
+		border-color: #fff;
+		color: #fff;
+		height: 3em;
+		width: 8em;
+		font-size: 0.90em;
+	}
+}
+
+@media screen and (max-width: 560px) {
+
+	#book{
+		font-family: 'Montserrat', sans-serif;
+		font-weight: lighter;
+		font-size: 0.75em;
+		letter-spacing: 0.25em;
+		background-color: #333945;
+		color: #EAF0F1;
+	}
+
+	#book{
+		border-style: solid;
+		border-color: #fff;
+		padding: 0.75em 2em;
+		transition: all 0.5s;
+	}
+
+}
+
+@media screen and (max-width: 450px) {
+
+	.navBar i{
+		margin-left: 1em;
+		background: #333945;
+		color: #fff;
+		display: block;
+		font-size: 1.75em;
+		padding: 0em;
+	}
+
+	section{
+		margin-top: 7em;
+		padding: 2em;
+	}
+
+	.modal-1, .modal-2, .modal-3{
+		max-width: 100%;
+		margin: 0em;
+		margin-bottom: 3em;
+	}
+
+	input{
+		outline: none;
+		width: 10em;
+		height: 2em;
+		border-style: solid;
+		border-color: #2B2B52;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 0.75em;
+		background: #fff;
+	}
+
+	.submit{
+		display: block;
+		background: #2B2B52;
+		margin: 4em 0em 0em 0em;
+		border-style: solid;
+		border-color: #fff;
+		transition: all 0.5s;
+		color: #fff;
+		height: 3em;
+		width: 8em;
+		font-size: 0.90em;
+	}
+
+	.reset{
+		background: #2B2B52;
+		margin: 1em 0em 0em 0em;
+		border-style: solid;
+		border-color: #fff;
+		color: #fff;
+		height: 3em;
+		width: 8em;
+		font-size: 0.90em;
+	}
+}
+
+@media screen and (max-width: 405px) {
+
+	.close{
+		float: right;
+		margin-top: 0.5em;
+		margin-right: 0.5em;
+		font-size: 3em;
+		font-weight: bolder;
+		background: #DAE0E2;
+		color: #fff;
+	}
+
+	section{
+		margin-top: 7em;
+		padding: 1em;
+	}
+
+	.modal-1, .modal-2, .modal-3{
+		max-width: 100%;
+		margin: 0em;
+		margin-bottom: 3em;
+	}
+
+	input{
+		outline: none;
+		width: 10em;
+		height: 2em;
+		border-style: solid;
+		border-color: #2B2B52;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 0.75em;
+		background: #fff;
+	}
+
+	.submit{
+		display: block;
+		background: #2B2B52;
+		margin: 4em 0em 0em 0em;
+		border-style: solid;
+		border-color: #fff;
+		transition: all 0.5s;
+		color: #fff;
+		height: 3em;
+		width: 8em;
+		font-size: 0.90em;
+	}
+
+	.reset{
+		background: #2B2B52;
+		margin: 1em 0em 0em 0em;
+		border-style: solid;
+		border-color: #fff;
+		color: #fff;
+		height: 3em;
+		width: 8em;
+		font-size: 0.90em;
+	}
+
+}
+
+@media screen and (max-width: 370px) {
+
+	section{
+		margin-top: 7em;
+		padding: 0.5em;
+	}
+
+	input{
+		outline: none;
+		width: 10em;
+		height: 2em;
+		border-style: solid;
+		border-color: #2B2B52;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 0.75em;
+		background: #fff;
+	}
+
+	.submit{
+		display: block;
+		background: #2B2B52;
+		margin: 4em 0em 0em 0em;
+		border-style: solid;
+		border-color: #fff;
+		transition: all 0.5s;
+		color: #fff;
+		height: 3em;
+		width: 8em;
+		font-size: 0.75em;
+	}
+
+	.reset{
+		background: #2B2B52;
+		margin: 1em 0em 0em 0em;
+		border-style: solid;
+		border-color: #fff;
+		color: #fff;
+		height: 3em;
+		width: 8em;
+		font-size: 0.75em;
+	}
+
+}
+
+@media screen and (max-width: 345px) {
+
+	section{
+		margin-top: 7em;
+		padding: 0.25em;
+	}
+
+	.modal-1, .modal-2, .modal-3{
+		grid: auto/ 1fr;
+	}
+}
+
+@media screen and (max-width: 320px) {   
+
+	#book{
+		border-style: solid;
+		border-color: #fff;
+		padding: 0.5em 1.5em;
+		transition: all 0.5s;
+	}
+
+	#book{
+		border-style: solid;
+		border-color: #fff;
+		padding: 0.75em 2em;
+		transition: all 0.5s;
+	}
+
+}
