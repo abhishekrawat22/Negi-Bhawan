@@ -231,76 +231,6 @@ a{
 	font-style: italic;
 }
 
-/* Form */
-#book-section{
-	margin-top: 8em;
-	font-family: 'Montserrat', sans-serif;
-	color: #2B2B52;
-	display: grid;
-	grid: auto;
-}
-
-#myForm{
-	padding: 2em 5em;
-	background: #fff;
-}
-
-#book-head, .book-subhead{
-	padding:2em 0em;
-	background: #fff;
-}
-
-input, select{
-	outline: none;
-	width: 15em;
-	height: 2em;
-	border-style: solid;
-	border-color: #2B2B52;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1em;
-	background: #fff;
-}
-
-#submit{
-	display: block;
-	background: #2B2B52;
-	margin: 4em 0em 0em 0em;
-	border-style: solid;
-	border-color: #fff;
-	transition: all 0.5s;
-	color: #fff;
-	height: 3em;
-	width: 8em;
-	font-size: 0.90em;
-}
-
-#submit:hover{
-	background: #333945;
-	color: #fff;
-}
-
-#reset{
-	background: #2B2B52;
-	float: left;
-	margin: -3em 0em 0em 9em;
-	border-style: solid;
-	border-color: #fff;
-	color: #fff;
-	height: 3em;
-	width: 8em;
-	font-size: 0.90em;
-}
-
-#room-price{
-	margin-top: 1em;
-	background: #fff;
-}
-
-#star{
-	color: red;
-	background: #fff;
-}
-
 /* Contact */
 #contact-section{
 	text-align: center;
@@ -337,7 +267,7 @@ input, select{
 	background: #fff;
 }
 
-/* Copywright */
+/* Copyright */
 .rights{
 	text-align: center;
 	color: #333945;
@@ -680,41 +610,6 @@ input, select{
 		font-size: 1em;
 	}
 
-	input, select{
-		outline: none;
-		width: 13em;
-		height: 2em;
-		border-style: solid;
-		border-color: #2B2B52;
-		font-family: 'Montserrat', sans-serif;
-		font-size: 0.75em;
-		background: #fff;
-	}
-
-	#submit{
-		display: block;
-		background: #2B2B52;
-		margin: 4em 0em 0em 0em;
-		border-style: solid;
-		border-color: #fff;
-		transition: all 0.5s;
-		color: #fff;
-		height: 3em;
-		width: 8em;
-		font-size: 0.90em;
-	}
-
-	#reset{
-		background: #2B2B52;
-		margin: 1em 0em 0em 0em;
-		border-style: solid;
-		border-color: #fff;
-		color: #fff;
-		height: 3em;
-		width: 8em;
-		font-size: 0.90em;
-	}
-
 	.slider {
 		width: 23em;
 		height: 23em;
@@ -783,41 +678,6 @@ input, select{
 	.reviewer, .comment{
 		font-family: 'Montserrat', sans-serif;
 		padding-bottom: 1em;
-		font-size: 0.75em;
-	}
-
-	input, select{
-		outline: none;
-		width: 10em;
-		height: 2em;
-		border-style: solid;
-		border-color: #2B2B52;
-		font-family: 'Montserrat', sans-serif;
-		font-size: 0.75em;
-		background: #fff;
-	}
-
-	#submit{
-		display: block;
-		background: #2B2B52;
-		margin: 4em 0em 0em 0em;
-		border-style: solid;
-		border-color: #fff;
-		transition: all 0.5s;
-		color: #fff;
-		height: 3em;
-		width: 8em;
-		font-size: 0.75em;
-	}
-
-	#reset{
-		background: #2B2B52;
-		margin: 1em 0em 0em 0em;
-		border-style: solid;
-		border-color: #fff;
-		color: #fff;
-		height: 3em;
-		width: 8em;
 		font-size: 0.75em;
 	}
 
