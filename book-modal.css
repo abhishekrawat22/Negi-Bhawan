@@ -165,6 +165,10 @@ form h5{
 	margin: 2em;
 }
 
+#portfolio{
+	color: #fff;
+}
+
 /* Responsive Queries */
 @media screen and (max-width: 900px) {
 
