@@ -10,7 +10,7 @@
 
 /* Banner */
 .navigation{
-	max-width: 80%;
+	width: 100%;
 	height: 3em;
 	background: #333945;
 	padding: 2em 2em 0.5em 2em;
@@ -72,7 +72,7 @@ section{
 	padding: 3em;
 }
 
-.modal-1, .modal-2, .modal-3{
+.modal-1{
 	margin: 0em 20%;
 	margin-bottom: 3em;
 	max-width: 70%;
