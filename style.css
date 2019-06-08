@@ -215,10 +215,10 @@ a{
 }
 
 .review1, .review2, .review3{
-	display: inline-block;
 	height: auto;
 	margin-top: 2em;
 	padding: 1em;
+	padding-left: 0em;
 }
 
 .reviewer, .comment{
