@@ -277,6 +277,7 @@ a{
 
 #portfolio{
 	color: #fff;
+	background: #333945;
 }
 
 /* Responsive Queries */
@@ -539,9 +540,7 @@ a{
 	}
 
 	.fa{
-		color: #333945;
 		padding: 1em 0em;
-		opacity: 0.5;
 	}
 
 	.navBar i{
@@ -583,12 +582,12 @@ a{
 	#about-head, #about-description{
 		font-family: 'Montserrat', sans-serif;
 		font-size: 1.25em;
-		font-weight: lighter;
 		padding-bottom: 1.5em;
 	}
 
 	#about-description{
 		font-size: 0.75em;
+		font-weight: lighter;
 		overflow-wrap: break-word;
 		line-height: 1.5em;
 		font-style: italic;
@@ -603,7 +602,6 @@ a{
 	#review-head{
 		font-family: 'Montserrat', sans-serif;
 		font-size: 1.25em;
-		font-weight: lighter;
 		padding-bottom: 1.5em;
 		margin-top: 6em;
 	}
@@ -674,7 +672,6 @@ a{
 	#review-head{
 		font-family: 'Montserrat', sans-serif;
 		font-size: 1em;
-		font-weight: lighter;
 		padding-bottom: 1.5em;
 		margin-top: 6em;
 	}
